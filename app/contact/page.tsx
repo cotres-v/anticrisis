@@ -1,12 +1,20 @@
-
 'use client';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import { useState, FormEvent, ChangeEvent } from 'react';
 
+type FormData = {
+  name: string;
+  phone: string;
+  email: string;
+  service: string;
+  debt: string;
+  message: string;
+};
+
 export default function Contact() {
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormData>({
     name: '',
     phone: '',
     email: '',
@@ -17,7 +25,7 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
 
-  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,

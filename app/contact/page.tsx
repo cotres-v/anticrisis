@@ -3,7 +3,7 @@
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import { useState } from 'react';
+import { useState, FormEvent, ChangeEvent } from 'react';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -17,7 +17,7 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({
       ...prev,
@@ -25,7 +25,7 @@ export default function Contact() {
     }));
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
 

@@ -114,7 +114,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">            
             <div className="text-center">
               <img 
-                src="\images\lawyer2.jpg" 
+                src=".\images\lawyer2.jpg" 
                 alt="Екатерина Петровна"
                 width={400}
                 height={500}
@@ -129,7 +129,7 @@ export default function About() {
 
             <div className="text-center">
               <img 
-                src="\images\lawyer1.jpg" 
+                src=".\images\lawyer1.jpg" 
                 alt="Евгений Петрович"
                 className="object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
               />
@@ -142,7 +142,7 @@ export default function About() {
             
             <div className="text-center">
               <img 
-                src="\images\lawyer3.jpg" 
+                src=".\images\lawyer3.jpg" 
                 alt="Давид Алексеевич"
                 width={400}
                 height={500}
@@ -159,7 +159,7 @@ export default function About() {
             <div className="text-center"></div> 
             <div className="text-center">
               <img 
-                src="/images/lawyer4.jpg" 
+                src="./images/lawyer4.jpg" 
                 alt="Ирина Сергеевна"
                 className="w-64 h-80 object-cover rounded-xl mx-auto mb-6 shadow-lg"
               />
@@ -171,7 +171,7 @@ export default function About() {
             </div>
             <div className="text-center">
               <img 
-                src="/images/lawyer5.jpg" 
+                src="./images/lawyer5.jpg" 
                 alt="Эльдар Фаритович"
                 className="w-64 h-80 object-cover rounded-xl mx-auto mb-6 shadow-lg"
               />

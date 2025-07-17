@@ -168,7 +168,7 @@ export default function Home() {
             <Link href="/contact" className="bg-orange-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-600 transition-colors cursor-pointer whitespace-nowrap">
               Получить консультацию
             </Link>
-            <a href="tel:+74951234567" className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors cursor-pointer whitespace-nowrap">
+            <a href="tel:+79252032030" className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-gray-900 transition-colors cursor-pointer whitespace-nowrap">
               +7 (925) 203-20-30
             </a>
           </div>

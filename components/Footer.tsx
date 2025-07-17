@@ -71,7 +71,7 @@ export default function Footer() {
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
           <p>&copy; 2025 Антикризисное управление. Все права защищены.</p>
-          <p> ИП Хаменко. </p>
+          <p> ИП Хоменко. </p>
         </div>
       </div>
     </footer>

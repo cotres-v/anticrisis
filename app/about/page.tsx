@@ -111,14 +111,29 @@ export default function About() {
             </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">            
             <div className="text-center">
               <img 
-                src="https://readdy.ai/api/search-image?query=Professional%20middle-aged%20male%20lawyer%20in%20dark%20business%20suit%2C%20confident%20expression%2C%20modern%20office%20background%2C%20executive%20portrait%20photography%20style%2C%20representing%20expertise%20and%20authority%20in%20legal%20services&width=300&height=400&seq=lawyer-1&orientation=portrait" 
-                alt="Андрей Петров"
-                className="w-48 h-64 object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
+                src="\images\lawyer2.jpg" 
+                alt="Екатерина Петровна"
+                width={400}
+                height={500}
+                className="object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
               />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Андрей Петров</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Екатерина Петровна</h3>
+              <p className="text-blue-600 mb-4">Ведущий юрист</p>
+              <p className="text-gray-600">
+                12 лет специализации на банкротстве физических лиц, 95% выигранных дел
+              </p>
+            </div>
+
+            <div className="text-center">
+              <img 
+                src="\images\lawyer1.jpg" 
+                alt="Евгений Петрович"
+                className="object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
+              />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Евгений Петрович</h3>
               <p className="text-blue-600 mb-4">Управляющий партнер</p>
               <p className="text-gray-600">
                 15 лет опыта в арбитражном праве, более 500 успешных дел по банкротству
@@ -127,24 +142,40 @@ export default function About() {
             
             <div className="text-center">
               <img 
-                src="https://readdy.ai/api/search-image?query=Professional%20female%20lawyer%20in%20navy%20blue%20business%20suit%2C%20confident%20smile%2C%20modern%20law%20office%20background%2C%20executive%20portrait%20photography%20style%2C%20representing%20expertise%20and%20professionalism%20in%20legal%20services&width=300&height=400&seq=lawyer-2&orientation=portrait" 
-                alt="Елена Смирнова"
-                className="w-48 h-64 object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
+                src="\images\lawyer3.jpg" 
+                alt="Давид Алексеевич"
+                width={400}
+                height={500}
+                className="object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
               />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Елена Смирнова</h3>
-              <p className="text-blue-600 mb-4">Ведущий юрист</p>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Давид Алексеевич</h3>
+              <p className="text-blue-600 mb-4">Юрист-консультант</p>
               <p className="text-gray-600">
-                12 лет специализации на банкротстве физических лиц, 95% выигранных дел
+                8 лет опыта, специалист по корпоративному банкротству и реструктуризации
               </p>
             </div>
-            
+          </div> 
+          <div className="grid grid-cols-1 md:grid-cols-4 mt-6">
+            <div className="text-center"></div> 
             <div className="text-center">
               <img 
-                src="https://readdy.ai/api/search-image?query=Professional%20young%20male%20lawyer%20in%20charcoal%20gray%20business%20suit%2C%20approachable%20expression%2C%20modern%20corporate%20office%20background%2C%20executive%20portrait%20photography%20style%2C%20representing%20competence%20and%20reliability%20in%20legal%20services&width=300&height=400&seq=lawyer-3&orientation=portrait" 
-                alt="Дмитрий Козлов"
-                className="w-48 h-64 object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
+                src="/images/lawyer4.jpg" 
+                alt="Ирина Сергеевна"
+                className="w-64 h-80 object-cover rounded-xl mx-auto mb-6 shadow-lg"
               />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">Дмитрий Козлов</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Ирина Сергеевна</h3>
+              <p className="text-blue-600 mb-4">Юрист-консультант</p>
+              <p className="text-gray-600">
+                8 лет опыта, специалист по корпоративному банкротству и реструктуризации
+              </p>
+            </div>
+            <div className="text-center">
+              <img 
+                src="/images/lawyer5.jpg" 
+                alt="Эльдар Фаритович"
+                className="w-64 h-80 object-cover rounded-xl mx-auto mb-6 shadow-lg"
+              />
+              <h3 className="text-xl font-bold text-gray-900 mb-2">Эльдар Фаритович</h3>
               <p className="text-blue-600 mb-4">Юрист-консультант</p>
               <p className="text-gray-600">
                 8 лет опыта, специалист по корпоративному банкротству и реструктуризации

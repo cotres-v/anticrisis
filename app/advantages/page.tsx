@@ -195,8 +195,8 @@ export default function Advantages() {
               <div className="grid grid-cols-4 gap-0">
                 <div className="p-4 font-medium">Опыт работы</div>
                 <div className="p-4 text-center text-green-600 font-bold">5+ лет</div>
-                <div className="p-4 text-center">5 лет</div>
-                <div className="p-4 text-center">3 лет</div>
+                <div className="p-4 text-center">4 года</div>
+                <div className="p-4 text-center">3 года</div>
               </div>
             </div>
           </div>
@@ -259,7 +259,7 @@ export default function Advantages() {
             <Link href="/contact" className="bg-orange-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-orange-600 transition-colors cursor-pointer whitespace-nowrap">
               Бесплатная консультация
             </Link>
-            <a href="tel:+74951234567" className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors cursor-pointer whitespace-nowrap">
+            <a href="tel:+79252032030" className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-blue-600 transition-colors cursor-pointer whitespace-nowrap">
               Позвонить сейчас
             </a>
           </div>

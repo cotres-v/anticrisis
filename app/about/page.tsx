@@ -121,10 +121,7 @@ export default function About() {
                 className="object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Екатерина Петровна</h3>
-              <p className="text-blue-600 mb-4">Ведущий юрист</p>
-              <p className="text-gray-600">
-                12 лет специализации на банкротстве физических лиц, 95% выигранных дел
-              </p>
+              <p className="text-blue-600 mb-4">Директор по развитию</p>
             </div>
 
             <div className="text-center">
@@ -134,10 +131,7 @@ export default function About() {
                 className="object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Евгений Петрович</h3>
-              <p className="text-blue-600 mb-4">Управляющий партнер</p>
-              <p className="text-gray-600">
-                15 лет опыта в арбитражном праве, более 500 успешных дел по банкротству
-              </p>
+              <p className="text-blue-600 mb-4">Генеральный директор </p>
             </div>
             
             <div className="text-center">
@@ -149,10 +143,7 @@ export default function About() {
                 className="object-cover object-top rounded-xl mx-auto mb-6 shadow-lg"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Давид Алексеевич</h3>
-              <p className="text-blue-600 mb-4">Юрист-консультант</p>
-              <p className="text-gray-600">
-                8 лет опыта, специалист по корпоративному банкротству и реструктуризации
-              </p>
+              <p className="text-blue-600 mb-4">Руководитель юридического отдела</p>
             </div>
           </div> 
           <div className="grid grid-cols-1 md:grid-cols-4 mt-6">
@@ -164,10 +155,7 @@ export default function About() {
                 className="w-64 h-80 object-cover rounded-xl mx-auto mb-6 shadow-lg"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Ирина Сергеевна</h3>
-              <p className="text-blue-600 mb-4">Юрист-консультант</p>
-              <p className="text-gray-600">
-                8 лет опыта, специалист по корпоративному банкротству и реструктуризации
-              </p>
+              <p className="text-blue-600 mb-4">Руководитель отдела по работе с клиентами</p>
             </div>
             <div className="text-center">
               <img 
@@ -176,10 +164,7 @@ export default function About() {
                 className="w-64 h-80 object-cover rounded-xl mx-auto mb-6 shadow-lg"
               />
               <h3 className="text-xl font-bold text-gray-900 mb-2">Эльдар Фаритович</h3>
-              <p className="text-blue-600 mb-4">Юрист-консультант</p>
-              <p className="text-gray-600">
-                8 лет опыта, специалист по корпоративному банкротству и реструктуризации
-              </p>
+              <p className="text-blue-600 mb-4">Главный юрист</p>
             </div>
           </div>
         </div>

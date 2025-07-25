@@ -24,7 +24,7 @@ export default function Footer() {
               <a href="tel:+79252032030" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
                 <i className="ri-phone-line text-lg"></i>
               </a>
-              <a href="https://vk.com/cotres" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
+              <a href="https://vk.com/khoma1603" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
                 <i className="ri-vk-line text-lg"></i>
               </a>
             </div>

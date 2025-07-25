@@ -15,14 +15,17 @@ export default function Footer() {
               Более 5 лет опыта, 100% успешных дел.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
+              <a href="https://t.me/+79252032030" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
                 <i className="ri-telegram-line text-lg"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
+              <a href="https://wa.me/79252032030" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
                 <i className="ri-whatsapp-line text-lg"></i>
               </a>
-              <a href="#" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
+              <a href="tel:+79252032030" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
                 <i className="ri-phone-line text-lg"></i>
+              </a>
+              <a href="https://vk.com/cotres" className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-colors cursor-pointer">
+                <i className="ri-vk-line text-lg"></i>
               </a>
             </div>
           </div>
@@ -45,13 +48,13 @@ export default function Footer() {
                 <div className="w-4 h-4 flex items-center justify-center">
                   <i className="ri-phone-line"></i>
                 </div>
-                <span>+7 (925) 203-20-30</span>
+                <a href="tel:+79252032030" className="hover:underline">+7 (925) 203-20-30</a>
               </li>
               <li className="flex items-center space-x-2">
                 <div className="w-4 h-4 flex items-center justify-center">
                   <i className="ri-phone-line"></i>
                 </div>
-                <span>+7 (967) 195-76-66</span>
+                <a href="tel:+79671957666" className="hover:underline">+7 (967) 195-76-66</a>
               </li>
               <li className="flex items-center space-x-2">
                 <div className="w-4 h-4 flex items-center justify-center">

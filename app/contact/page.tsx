@@ -288,7 +288,7 @@ export default function Contact() {
                     <h3 className="text-lg font-semibold text-gray-900 mb-2">
                       Адрес офиса
                     </h3>
-                    <p className="text-gray-700">Москва, ул. Селезневская 29с2</p>
+                    <p className="text-gray-700">Москва, улица Сущёвский Вал, 5с3</p>
                     <p className="text-sm text-gray-500">Пн-Пт: 9:00-20:00</p>
                   </div>
                 </div>
@@ -302,14 +302,19 @@ export default function Contact() {
                       Мессенджеры
                     </h3>
                     <div className="flex space-x-3">
-                      <a href="#" className="text-blue-500 hover:text-blue-600 cursor-pointer">
+                      <a href="https://t.me/+79252032030" className="text-blue-500 hover:text-blue-600 cursor-pointer">
                         <div className="w-8 h-8 flex items-center justify-center">
                           <i className="ri-telegram-line text-xl"></i>
                         </div>
                       </a>
-                      <a href="#" className="text-green-500 hover:text-green-600 cursor-pointer">
+                      <a href="https://wa.me/79252032030" className="text-green-500 hover:text-green-600 cursor-pointer">
                         <div className="w-8 h-8 flex items-center justify-center">
                           <i className="ri-whatsapp-line text-xl"></i>
+                        </div>
+                      </a>
+                      <a href="https://vk.com/khoma1603" className="text-[#07F] hover:text-[#0057D9] cursor-pointer">
+                        <div className="w-8 h-8 flex items-center justify-center">
+                          <i className="ri-vk-line text-xl"></i>
                         </div>
                       </a>
                     </div>
@@ -325,7 +330,7 @@ export default function Contact() {
                 </h3>
                 <div className="bg-gray-200 rounded-xl overflow-hidden h-64">
                   <iframe
-                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac6c14fc0916c451594160fd299cbd9702f38445cf6e19a016d38487aebc01010&amp;source=constructor"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Ac15ee80a2528cb3ea5b2dcfb3086d2e934028c75807486f5dcd675968b027a1e&amp;source=constructor"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}

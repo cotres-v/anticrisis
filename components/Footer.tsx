@@ -60,13 +60,15 @@ export default function Footer() {
                 <div className="w-4 h-4 flex items-center justify-center">
                   <i className="ri-mail-line"></i>
                 </div>
-                <span>Khomenko281@gmail.ru</span>
+                <a href="mailto:Khomenko281@gmail.ru" className="hover:text-blue-600 cursor-pointer">
+                  Khomenko281@gmail.ru
+                </a>
               </li>
               <li className="flex items-center space-x-2">
                 <div className="w-4 h-4 flex items-center justify-center">
                   <i className="ri-map-pin-line"></i>
                 </div>
-                <span>Москва, ул. Селезневская 29с2</span>
+                <span>Москва, улица Сущёвский Вал, 5с3</span>
               </li>
             </ul>
           </div>
